@@ -1,17 +1,25 @@
 .header {
   width: 100%;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   margin-top: .25%;
   margin-bottom: 1.5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .title {
   float: left;
+  font-weight: bold;
+  color: palevioletred;
 }
 
 .scores {
   float: right;
+}
+
+.digit {
+  color: palevioletred;
+  /* padding: 0;
+  margin: 0; */
 }
