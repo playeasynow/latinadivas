@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
+// import ModalMessage from "./components/Modal";
 import "./App.css";
 
 class App extends Component {
@@ -15,9 +16,7 @@ class App extends Component {
 
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
-      this.setState({highscore: this.state.score}, function() {
-        console.log(this.state.highscore);
-      });
+      this.setState({highscore: this.state.score});
     }
     this.state.cards.forEach(card => {
       card.count = 0;
@@ -28,22 +27,20 @@ class App extends Component {
   }
 
   clickCount = id => {
-    this.state.cards.find((o, i) => {
-      if (o.id === id) {
+    this.state.cards.find((diva, i) => {
+      if (diva.id === id) {
         if(cards[i].count === 0){
           cards[i].count = cards[i].count + 1;
-          this.setState({score : this.state.score + 1}, function(){
-            console.log(this.state.score);
-          });
+          this.setState({score : this.state.score + 1});
           this.state.cards.sort(() => Math.random() - 0.5)
           return true; 
         } else {
           this.gameOver();
         }
       }
+      return null;
     });
   }
-  // Map over this.state.cards and render a cardCard component for each card object
   render() {
     return (
       <Wrapper>
