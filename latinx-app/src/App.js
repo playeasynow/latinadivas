@@ -44,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Latina Divas</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>80s Latina Divas</Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
