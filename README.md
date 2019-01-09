@@ -7,7 +7,7 @@ Orig. Deployment - January 8, 2019
 Build our first app using React.js! Additionally, build logic for a memory game. I have been obsessed with 80's music lately, and specifically, by Latina women. Enjoy!
 
 # User Guide
-<img src="./public/assets/img-vid/LatinaDivasShot.png" 
+<img src=".latinx-app/public/assets/img-vid/LatinaDivasShot.png" 
 alt="latinaDivas" width="500" height="300" border="10" /></a>
 
 Here's how it works:
