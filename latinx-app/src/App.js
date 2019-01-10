@@ -6,7 +6,6 @@ import cards from "./cards.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
   state = {
     cards,
     score: 0,
