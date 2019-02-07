@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LatinaDivas/precache-manifest.a9a8cf08f75b7295636f35c900927dd4.js"
+  "/LatinaDivas/precache-manifest.d9e86740568cf13f8391ef680ac27dee.js"
 );
 
 workbox.clientsClaim();
