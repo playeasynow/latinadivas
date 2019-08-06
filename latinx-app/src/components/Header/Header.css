@@ -1,25 +1,24 @@
 .header {
   width: 100%;
-  font-size: 3rem;
+  font-size: 4.5vh;
   color: white;
-  margin-top: .25%;
-  margin-bottom: 1.5%;
+  margin-top: 15%;
+  margin-bottom: 10%;
   padding-left: 2%;
   padding-right: 2%;
 }
 
 .title {
-  float: left;
   font-weight: bold;
   color: palevioletred;
+  text-align: center;
 }
 
 .scores {
-  float: right;
+  text-align: center;
+  font-size: 4vh;
 }
 
 .digit {
   color: palevioletred;
-  /* padding: 0;
-  margin: 0; */
 }
